@@ -9,7 +9,7 @@ class NetworkAPIService extends BaseAPIService {
   Future getResponse(String url) async {
     dynamic responseJson;
     try {
-      final response = await http.get(Uri(baseURL + url));
+      final response = await http.get(Uri.parse(baseURL + url));
       responseJson = returnResponse(response);
     } on SocketException {
       throw FetchDataException('Sem conexão com a internet...');
