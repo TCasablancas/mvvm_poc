@@ -1,15 +1,15 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:design_system_poc/design_system_poc.dart';
 
-import 'view/home_page.dart';
+import 'feature/home/HomeView.dart';
+import 'feature/login/LoginView.dart';
 
 class AppWidget extends StatelessWidget {
-  const AppWidget({Key? key}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: HomePage(),
+    return MaterialApp(
+      home: LoginView(),
     );
   }
 }
