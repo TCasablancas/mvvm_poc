@@ -62,7 +62,7 @@ packages:
     description:
       path: "."
       ref: main
-      resolved-ref: "20fd84b33f8f4bf6b1c14a65132096f09900ec67"
+      resolved-ref: dd7b53c70590afe142b4aa1e1bb2891151b42a9d
       url: "https://github.com/TCasablancas/design_system_poc.git"
     source: git
     version: "0.0.1"
